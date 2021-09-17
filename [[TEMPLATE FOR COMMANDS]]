@@ -1,0 +1,20 @@
+const { MessageEmbed } = require("discord.js");
+const { getMember } = require("../../Functions")
+
+module.exports = {
+    name : "_NAME",
+    aliases : ["_ALIASNAME", "_ALIAS"],
+    category : "CATEGORY",
+    permissions : "PERMISSION_FLAG",
+    description : "DESCRIPTION",
+    usage : "USAGE",
+    run : async(client, msg, args) => {
+        const guild = msg.guild;
+        const channel = msg.channel;
+        const author = msg.author;
+        const arg = args[0];
+
+        //const users = args.shift()
+
+    }
+}
