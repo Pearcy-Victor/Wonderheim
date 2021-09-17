@@ -1,6 +1,7 @@
 const { config } = require("dotenv");
 config();
 
+const cronPing = require("./server")
 const fs = require('fs');
 
 const {Client, MessageEmbed, Collection} = require("discord.js");
@@ -145,4 +146,5 @@ client.on("messageUpdate", async (oldMsg, newMsg) => {
     client.MSGCollection.set(newMsg.guild.id+'_new', newMsg);
 })
 
+cronPing()
 client.login(process.env.TOKEN1);
