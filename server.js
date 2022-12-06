@@ -7,7 +7,7 @@ server.all("/", (req, res) => {
 })
 
 function cronPing() {
-  server.listen(6969, () => {
+  server.listen(3000, () => {
     console.log("Server is pinged.")
   })
 }
