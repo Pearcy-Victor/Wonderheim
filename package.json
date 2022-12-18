@@ -5,7 +5,7 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.3",
     "ffmpeg": "^0.0.4",
-    "node-fetch": "^3.0.0",
+    "node-fetch": "^3.2.10",
     "opus": "^0.0.0",
     "ytdl-core": "^4.8.2"
   },
